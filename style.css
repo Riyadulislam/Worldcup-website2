@@ -1,3 +1,5 @@
+/* ---------responsive for mobile--------- */
+
 .top-banner {
     display: flex;
     background-color: black;
@@ -138,4 +140,35 @@ ul {
 
 .follow-icon a {
     color: white;
+}
+
+
+/* ---------responsive for mobile--------- */
+
+@media screen and (max-width :576px) {
+    .top-banner {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        border-radius: 20px;
+        height: 500px;
+    }
+    .top-image img {
+        height: 230px;
+        margin-left: 80px;
+    }
+    .top-title {
+        color: white;
+        width: 40%;
+        text-align: center;
+        padding-left: 50px;
+    }
+    .top-h {
+        font-size: 10px;
+    }
+    .button-size {
+        background-color: #DD0000;
+        border-radius: 5px;
+        padding: 10px;
+    }
 }
